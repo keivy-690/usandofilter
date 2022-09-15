@@ -5,6 +5,4 @@ const users = [
   { id: 97, name: 'Oliver', age: 28, group: 'admin' }
 ];
 
-let res = users.filter(it => it.name.includes('oli'));
-
-// res é []
+let res = users.filter(it => it.name == 'Adam'
